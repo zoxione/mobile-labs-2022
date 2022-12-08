@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">wear</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+
+
+    <string-array name="Emails">
+        <item>admin@admin.ru</item>
+        <item>bayr@mail.ru</item>
+        <item>ivan11@gmail.com</item>
+        <item>lekro@tt.com</item>
+        <item>oleg@yandex.ru</item>
+    </string-array>
+    <string-array name="Passwords">
+        <item>admin</item>
+        <item>paadminssword</item>
+        <item>privation</item>
+        <item>power1up</item>
+        <item>dot2</item>
+    </string-array>
+    <string name="title_activity_main">MainActivity</string>
+</resources>

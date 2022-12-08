@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.thirdproject.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_nav_town"
+            app:destination="@id/nav_town" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_town"
+        android:name="com.example.thirdproject.ui.town.TownFragment"
+        android:label="@string/menu_town"
+        tools:layout="@layout/fragment_town">
+        <argument
+            android:name="town_name"
+            android:defaultValue="nan"
+            app:argType="string" />
+        <argument
+            android:name="town_country"
+            android:defaultValue="nan"
+            app:argType="string" />
+        <argument
+            android:name="town_population"
+            android:defaultValue="0"
+            app:argType="integer" />
+        <argument
+            android:name="town_square"
+            android:defaultValue="0"
+            app:argType="integer" />
+        <argument
+            android:name="town_language"
+            android:defaultValue="nan"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_saves"
+        android:name="com.example.thirdproject.ui.saves.SavesFragment"
+        android:label="@string/menu_saves"
+        tools:layout="@layout/fragment_saves">
+        <action
+            android:id="@+id/action_nav_saves_to_nav_town"
+            app:destination="@id/nav_town" />
+    </fragment>
+</navigation>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.wear.widget.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFA726"
+    android:padding="@dimen/box_inset_layout_padding"
+    tools:context=".MainActivity"
+    tools:deviceIds="wear">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/inner_frame_layout_padding"
+        app:layout_boxedEdges="all">
+
+        <androidx.wear.widget.WearableRecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusable="auto"
+            android:focusableInTouchMode="true"
+            android:padding="4dp"
+            android:scrollbarStyle="insideInset"
+            android:scrollbars="vertical"
+            tools:context=".ui.list.ListActivity"
+            tools:deviceIds="wear"
+            tools:itemCount="5"
+            tools:listitem="@layout/wearable_recycler_view_item">
+
+            <requestFocus />
+        </androidx.wear.widget.WearableRecyclerView>
+    </FrameLayout>
+</androidx.wear.widget.BoxInsetLayout>

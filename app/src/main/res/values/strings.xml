@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Города</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Навигация</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Главная</string>
+    <string name="menu_town">Город</string>
+    <string name="menu_saves">Сохраненные</string>
+    <string name="menu_action">Выйти</string>
+
+    <string-array name="Emails">
+        <item>admin@admin.ru</item>
+        <item>bayr@mail.ru</item>
+        <item>ivan11@gmail.com</item>
+        <item>lekro@tt.com</item>
+        <item>oleg@yandex.ru</item>
+    </string-array>
+    <string-array name="Passwords">
+        <item>admin</item>
+        <item>paadminssword</item>
+        <item>privation</item>
+        <item>power1up</item>
+        <item>dot2</item>
+    </string-array>
+
+    <string-array name="recycler_data">
+        <item>Таганрог</item>
+        <item>Ставрополь</item>
+        <item>Ростов-на-Дону</item>
+        <item>Москва</item>
+        <item>Губкин</item>
+        <item>Самара</item>
+        <item>Ставрополь</item>
+        <item>Санкт-Петербург</item>
+        <item>Улан-Удэ</item>
+        <item>Уфа</item>
+        <item>Якутск</item>
+        <item>Ялта</item>
+        <item>Чита</item>
+        <item>Москва</item>
+        <item>Алматы</item>
+        <item>Таганрог</item>
+        <item>Тверь</item>
+        <item>Тольятти</item>
+        <item>Астана</item>
+        <item>Шымкент</item>
+        <item>Берлин</item>
+        <item>Мюнхен</item>
+        <item>Гамбург</item>
+        <item>Кёльн</item>
+        <item>Саранск</item>
+    </string-array>
+</resources>
