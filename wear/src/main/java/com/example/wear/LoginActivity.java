@@ -7,12 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
-
 import com.example.wear.data.Session;
 import com.example.wear.databinding.ActivityLoginBinding;
-
-import java.util.List;
 import java.util.Objects;
 
 public class LoginActivity extends Activity {
